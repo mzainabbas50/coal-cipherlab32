@@ -13,7 +13,6 @@ a password strength analyser (BSR entropy) and a checksum calculator (djb2 / sum
 - `CipherLab/CipherLab.asm` - source code
 - `CipherLab/build.bat`, `CipherLab/.vscode/tasks.json` - build helpers
 - `CipherLab/readme.txt` - how to build and use
-- `Submission/` - proposal, final report, guides
 
 ## Build (Windows)
 Install Visual Studio Build Tools 2022 (C++ workload) and the Irvine32 library (`C:\Irvine`), then in the
