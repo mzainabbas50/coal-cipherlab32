@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build CipherLab (x86)",
+      "type": "shell",
+      "command": "cmd /c \"\"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\Build\vcvars32.bat\" && set IRVINE=C:\Irvine&& build.bat\"",
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run CipherLab",
+      "type": "shell",
+      "command": "start CipherLab.exe",
+      "problemMatcher": []
+    }
+  ]
+}
